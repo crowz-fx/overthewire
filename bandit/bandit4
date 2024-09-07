@@ -1,0 +1,6 @@
+ls -lart
+cd inhere
+ls -lart
+file ./-file00
+file ./*
+cat ./-file07

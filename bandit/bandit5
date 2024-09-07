@@ -1,0 +1,5 @@
+ls -lart
+cd inhere
+man find
+find ./ -readable -size 1033c \! -executable
+cat ./maybehere07/.file2
