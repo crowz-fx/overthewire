@@ -1,0 +1,38 @@
+ll
+wechall
+cd /tmp
+mktemp -d
+cd /tmp/tmp.4F2Cqwd1H0
+cp ~/data.txt .
+ll
+head -5 data.txt
+man hexdump
+man xxd
+xxd -r data.txt > uncompress
+ll
+file uncompress
+mv uncompress undump.gz
+gunzip undump.gz
+ll
+file undump
+man bzip2
+bzcat undump > afterbz
+ll
+file afterbz
+mv afterbz afterbz.gz
+gunzip afterbz.gz
+ll
+file afterbz
+man tar
+tar -xvf afterbz
+file data5.bin
+tar -xvf data5.bin
+file data6.bin
+bzcat data6.bin > data6af
+file data6af
+tar -xvf data6af
+file data8.bin
+mv data8.bin data8.bin.gz
+gunzip data8.bin.gz
+file data8.bin
+cat data8.bin

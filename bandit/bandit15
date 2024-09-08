@@ -1,0 +1,3 @@
+man openssl
+openssl s_client localhost:30001
+# paste pwd, spits back next pwd

@@ -1,0 +1,4 @@
+# cp private key to local
+chmod 600 pwdfiles/bandit13_bandit14.privkey
+ssh -i pwdfiles/bandit13_bandit14.privkey bandit14@bandit.labs.overthewire.org -p 2220
+cat /etc/bandit_pass/bandit14
