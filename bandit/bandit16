@@ -1,0 +1,6 @@
+man nmap
+nmap -p31000-32000 --script ssl-enum-ciphers localhost
+# two ports with tls, 31790, 31518, need to test them both
+openssl s_client -ign_eof localhost:31790
+# paste pwd, get rsa back for NEXT LEVEL LOL
+ssh -i pwdfiles/bandit16_something.privkey bandit17@bandit.labs.overthewire.org -p 2220

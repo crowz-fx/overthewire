@@ -1,0 +1,2 @@
+ls -lart
+diff passwords.old passwords.new

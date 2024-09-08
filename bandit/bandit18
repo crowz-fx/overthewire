@@ -1,0 +1,2 @@
+sshpass -f pwdfiles/bandit18 ssh -l bandit18 bandit.labs.overthewire.org -p
+ 2220 -C "wechall; cat readme"
