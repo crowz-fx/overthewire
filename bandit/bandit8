@@ -1,0 +1,11 @@
+ill
+cat data.txt | uniq | wc -l
+cat data.txt | sort | uniq | wc -l
+cat data.txt | sort | uniq
+ll
+head -5 data.txt
+head -25 data.txt
+man uniq
+cat data.txt | sort | uniq -u | wc -l
+man uniq
+cat data.txt | sort | uniq -u

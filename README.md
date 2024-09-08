@@ -28,3 +28,9 @@ Posted this in accordance to the [rules here](https://overthewire.org/rules/)
 ## Final notes
 
 None of this will be perfect, many ways to skin a cat but more importantly... have fun!
+
+## Helpful commands
+```bash
+# grab your history in a nice easy-to copy-pasta format
+history | cut -c 8-
+```

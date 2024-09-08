@@ -1,0 +1,7 @@
+ls -lart
+wechall
+cat data.txt | wc -l
+cat data.txt | uniq | wc -l
+man grep
+cat data.txt | grep "millionth"
+cat data.txt | grep "millionth" | awk -F " " '{print $2}'

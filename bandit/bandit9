@@ -1,0 +1,5 @@
+cat data.txt | grep "=="
+head -5 data.txt
+cat data.txt | wc -l
+cat data.txt | sort | uniq -u | wc -l
+strings data.txt | grep ====
