@@ -1,0 +1,16 @@
+# on bandit24 box
+cat /etc/passwd | grep bandit26
+
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+
+cat /usr/bin/showtext
+cat bandit26.sshkey
+
+# cp sshkey locally
+vi pwdfiles/bandit25_bandit26_login.privkey
+chmod 600 pwdfiles/bandit25_bandit26_login.privkey
+
+ssh -i pwdfiles/bandit25_bandit26_login.privkey bandit26@bandit.labs.overthewire.org -p 2220
+
+# make window really small, v to get into vi, :set shell=/bin/bash, :shell
+cat /etc/bandit_pass/bandit26

@@ -1,0 +1,3 @@
+# on bandit26 box in home
+ls -lart
+./bandit27-do cat /etc/bandit_pass/bandit27

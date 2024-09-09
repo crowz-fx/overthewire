@@ -1,0 +1,5 @@
+ls -alrt
+./suconnect
+man nc
+echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -lp 9999 &
+./suconnect 9999
