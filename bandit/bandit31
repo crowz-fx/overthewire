@@ -1,0 +1,13 @@
+cd /tmp
+mktemp -d
+cd /tmp/tmp.ebR0bi5hm3 
+git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+ll
+cd repo
+cat README
+git status
+git diff
+cat .gitignore
+git add -f key.txt
+git commit
+git push

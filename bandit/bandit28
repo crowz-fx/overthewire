@@ -1,0 +1,9 @@
+cd /tmp
+mktemp -d
+cd /tmp/tmp.bok8K4rVXJ 
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+ll
+cd repo
+cat README
+git log
+git show 73f5d0435070c8922da12177dc93f40b2285e22a

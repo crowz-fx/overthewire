@@ -1,0 +1,11 @@
+cd /tmp
+mktemp -d
+cd /tmp/tmp.boIjYNIdyd 
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+ll
+cd repo
+cat README
+git log
+git branch -a
+git tag
+git show secret

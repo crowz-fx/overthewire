@@ -1,0 +1,10 @@
+cd /tmp
+mktemp -d
+cd /tmp/tmp.1FGWWwwrDT 
+git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+ll
+cd repo
+cat README
+git branch -a
+git checkout dev
+cat README

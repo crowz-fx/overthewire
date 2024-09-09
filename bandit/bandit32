@@ -1,0 +1,5 @@
+# trying multiple things, args are the key, $0 is shorthand for the shell/script
+$0
+ls -lart
+# see the uppercase binary has setuid for bandit33
+cat /etc/bandit_pass/bandit33
